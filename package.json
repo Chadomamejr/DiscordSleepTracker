@@ -1,0 +1,25 @@
+{
+  "name": "sleep-tracker-bot",
+  "version": "1.0.0",
+  "description": "Discord bot for tracking user sleep status and providing statistics.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "sleep",
+    "tracker",
+    "sqlite3",
+    "luxon"
+  ],
+  "author": "Your Name",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.17.0",
+    "dotenv": "^16.4.5",
+    "luxon": "^3.4.4",
+    "sqlite3": "^5.1.7"
+  }
+}
